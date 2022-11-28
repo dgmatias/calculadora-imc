@@ -1,156 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Lato", sans-serif;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
 body {
-  background-color: #090e22;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  color: #fff;
+  background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+color: black;
 }
 
 .hide {
-  display: none !important;
+display: none !important;
 }
 
 .container {
-  min-width: 400px;
-  min-height: 400px;
-  background-color: #1d1e33;
-  padding: 2rem;
+min-width: 400px;
+min-height: 400px;
+background-color: #242424;
+padding: 2rem;
 }
 
 /* IMC Form */
 #calc-container h2 {
-  text-align: center;
-  margin-bottom: 2rem;
+  color: white;
+text-align: center;
+margin-bottom: 2rem;
 }
 
 .form-inputs {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 }
 
 .form-control {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  margin-bottom: 1rem;
+display: flex;
+flex: 1;
+flex-direction: column;
+margin-bottom: 1rem;
 }
 
 .form-control label {
-  font-weight: bold;
-  margin-bottom: 0.6rem;
-  color: #ccc;
+font-weight: bold;
+margin-bottom: 0.6rem;
+color: white;
 }
 
 .form-control input {
-  padding: 1rem 0.5rem;
+padding: 1rem 0.5rem;
 }
 
 .action-control {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 2rem;
-  gap: 1rem;
+display: flex;
+justify-content: space-between;
+margin-top: 2rem;
+gap: 1rem;
 }
 
 button {
-  text-transform: uppercase;
-  padding: 1rem 1.5rem;
-  background-color: #f44236;
-  border: none;
-  color: #fff;
-  cursor: pointer;
-  opacity: 0.9;
-  flex: 1;
+text-transform: uppercase;
+padding: 1rem 1.5rem;
+background-color: #f44236;
+border: none;
+color: #fff;
+cursor: pointer;
+opacity: 0.9;
+flex: 1;
 }
 
 button:hover {
-  opacity: 1;
+opacity: 1;
 }
 
 #clear-btn {
-  background-color: #444;
+background-color: rgb(105, 105, 105);
 }
 
 /* Table */
 #result-container {
-  text-align: center;
+text-align: center;
 }
 
 #imc-number {
-  font-size: 2.4rem;
-  margin-bottom: 0.6rem;
+font-size: 2.4rem;
+margin-bottom: 0.6rem;
+color: white;
 }
 
 #imc-info {
-  font-size: 1.4rem;
-  color: #ccc;
+font-size: 1.4rem;
+color: white;
 }
 
 #result-container h3 {
-  margin-top: 1rem;
-  color: #dfdfdf;
+margin-top: 1rem;
+color: white;
 }
 
 #result-container {
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
 #imc-table {
-  margin: 1.5rem 0;
-  font-size: 0.8rem;
+margin: 1.5rem 0;
+font-size: 0.8rem;
 }
 
 .table-header {
-  font-weight: bold;
-  color: #ccc;
+font-weight: bold;
+color: white;
 }
 
 .table-header,
 .table-data {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 0.5rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid #444;
-  text-align: center;
+display: flex;
+justify-content: space-between;
+margin-bottom: 0.5rem;
+padding-bottom: 0.5rem;
+border-bottom: 1px solid black;
+text-align: center;
+color: white;
 }
 
 .table-header h4,
 .table-data p {
-  flex: 1;
+flex: 1;
 }
 
 .table-header h4:nth-child(3),
 .table-data p:nth-child(3) {
-  max-width: 80px;
+max-width: 80px;
 }
 
 #back-btn {
-  align-self: center;
+align-self: center;
 }
 
 .good {
-  color: #12db34;
+color: #12db34;
 }
 
 .low {
-  color: #dbce12;
+color: #dbce12;
 }
 
 .medium {
-  color: #db6212;
+color: #db6212;
 }
 
 .high {
-  color: #db1912;
+color: #db1912;
+}
+
+#link {
+  position: relative;
+  top: 50px;
+  text-align: center;
+}
+
+#link div a {
+  color: black;
+  text-decoration: none;
+  font-size: 23px;
 }
